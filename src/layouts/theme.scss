@@ -1,14 +1,23 @@
+
 @import '~react-md/src/scss/react-md';
-$md-primary-color: $md-grey-400;
-$md-secondary-color: $md-red-800;
-$md-tertiary-color: $md-grey-300;
+
+$md-light-theme: true;
+$md-primary-color: $md-cyan-800;
+$md-secondary-color: $md-green-500;
+$md-tertiary-color: $md-grey-900;
+
+
+//@include react-md-everything;
+@include react-md-theme-buttons($md-cyan-800, $md-green-200, false);
+
+
 
 .main-container,
 .darker-background {
     background-color: $md-tertiary-color;
 }
 
-a:link {
+a:link, a:visited{
     color: $md-secondary-color;
     text-decoration: none;
 }

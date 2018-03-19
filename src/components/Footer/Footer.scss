@@ -45,10 +45,14 @@
         }
 
         h4 {
-            color: $md-secondary-color;
+            color: $md-white-base;
             text-align: center;
             margin: 0;
         }
+    }
+
+    a:link, a:visited{
+        color: $md-white-base;
     }
 }
 
