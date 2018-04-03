@@ -1,6 +1,6 @@
 {
     "published on": "Published on {{date}}",
     "read": "Read",
-    "read time": "{{timeToRead}} min read",
+    "readTime": "{{count}} min read",
     "category": "Category:"
 }
