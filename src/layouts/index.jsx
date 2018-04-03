@@ -1,10 +1,13 @@
 import React from "react";
 import Helmet from "react-helmet";
 import "font-awesome/scss/font-awesome.scss";
+import { I18nextProvider } from 'react-i18next';
 import Navigation from "../components/Navigation/Navigation";
+import i18n from "../components/i18n/i18n"
 import config from "../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
+
 
 export default class MainLayout extends React.Component {
   getLocalTitle() {
@@ -44,14 +47,16 @@ export default class MainLayout extends React.Component {
   render() {
     const { children } = this.props;
     return (
-      <Navigation config={config} LocalTitle={this.getLocalTitle()}>
-        <div>
-          <Helmet>
-            <meta name="description" content={config.siteDescription} />
-          </Helmet>
-          {children()}
-        </div>
-      </Navigation>
+      <I18nextProvider i18n={i18n}>
+        <Navigation config={config} LocalTitle={this.getLocalTitle()}>
+          <div>
+            <Helmet>
+              <meta name="description" content={config.siteDescription} />
+            </Helmet>
+            {children()}
+          </div>
+        </Navigation>
+      </I18nextProvider>
     );
   }
 }

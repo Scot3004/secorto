@@ -7,6 +7,7 @@ import CardText from "react-md/lib/Cards/CardText";
 import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
 import Media, { MediaOverlay } from "react-md/lib/Media";
+import { translate } from "react-i18next";
 import PostTags from "../PostTags/PostTags";
 import "./PostPreview.scss";
 
@@ -35,7 +36,7 @@ class PostPreview extends Component {
     }
   }
   render() {
-    const { postInfo } = this.props;
+    const { postInfo, t } = this.props;
     const { mobile } = this.state;
     const expand = mobile;
     /* eslint no-undef: "off"*/
@@ -56,7 +57,7 @@ class PostPreview extends Component {
             <MediaOverlay>
               <CardTitle title={postInfo.title}>
                 <Button raised secondary className="md-cell--right">
-                  Read
+                  {t("read")}
                 </Button>
               </CardTitle>
             </MediaOverlay>
@@ -65,8 +66,8 @@ class PostPreview extends Component {
         <CardTitle
           expander={expand}
           avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
-          title={`Published on ${postInfo.date}`}
-          subtitle={`${postInfo.timeToRead} min read`}
+          title={t("published on", postInfo)}
+          subtitle={t("readTime", {count: postInfo.timeToRead})}
         />
 
         <CardText expandable={expand}>
@@ -78,4 +79,4 @@ class PostPreview extends Component {
   }
 }
 
-export default PostPreview;
+export default translate("Blog")(PostPreview);

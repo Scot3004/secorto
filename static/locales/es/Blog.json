@@ -1,0 +1,7 @@
+{
+    "published on": "Publicado el {{date}}",
+    "read": "Leer",
+    "readTime": "es {{count}} minuto de lectura",
+    "readTime_plural": "son {{count}} minutos de lectura",
+    "category": "Categoría:"
+}

@@ -3,19 +3,20 @@ import CardTitle from "react-md/lib/Cards/CardTitle";
 import Avatar from "react-md/lib/Avatars";
 import FontIcon from "react-md/lib/FontIcons";
 import Link from "gatsby-link";
+import { translate } from "react-i18next";
 import _ from "lodash";
 import "./PostInfo.scss";
 
 class PostInfo extends Component {
   render() {
-    const { postNode } = this.props;
+    const { postNode, t } = this.props;
     const post = postNode.frontmatter;
     return (
       <div className="post-info">
         <CardTitle
           avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
-          title={`Published on ${post.date}`}
-          subtitle={`${postNode.timeToRead} min read`}
+          title={t("published on", post)}
+          subtitle={t("readTime", {count: postNode.timeToRead})}
         />
         <Link
           className="category-link"
@@ -25,7 +26,7 @@ class PostInfo extends Component {
             avatar={
               <Avatar icon={<FontIcon iconClassName="fa fa-folder-open" />} />
             }
-            title={"In category"}
+            title={t("category")}
             subtitle={post.category}
           />
         </Link>
@@ -34,4 +35,4 @@ class PostInfo extends Component {
   }
 }
 
-export default PostInfo;
+export default translate("Blog")(PostInfo);
