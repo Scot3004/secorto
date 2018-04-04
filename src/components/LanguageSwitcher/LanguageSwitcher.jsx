@@ -41,6 +41,8 @@ class LanguageSwitcher extends Component {
     return (
       <div className="LanguageSwitcher">
         <MenuButton
+          flat
+          id="lang-menu"
           centered
           menuItems={languages.map(language => this.renderLanguageChoice(language))}
         >
@@ -51,5 +53,5 @@ class LanguageSwitcher extends Component {
   }
 }
 
-export default translate("LanguageSwitcher")(LanguageSwitcher);
+export default translate()(LanguageSwitcher);
 
