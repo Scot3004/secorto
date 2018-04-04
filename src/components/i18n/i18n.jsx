@@ -11,7 +11,7 @@ i18n
   .use(reactI18nextModule)
   .init({
     fallbackLng: "es",
-
+    load: 'languageOnly',
     // have a common namespace used around the full app
     ns: ["commons"],
     defaultNS: "commons",
