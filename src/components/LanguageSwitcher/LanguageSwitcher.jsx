@@ -10,7 +10,6 @@ class LanguageSwitcher extends Component {
     super(props);
     const { i18n } = this.props;
     this.state = { language: i18n.language };
-
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
   }
 
@@ -24,12 +23,11 @@ class LanguageSwitcher extends Component {
   }
 
   renderLanguageChoice({ code, label }) {
-
     return (
       <ListItem
         key={code}
         onClick={() => this.handleChangeLanguage(code)}
-        primaryText={label}
+        primaryText={`${label} (${code})`}
       />
     );
   }
