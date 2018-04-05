@@ -1,9 +1,7 @@
-
-
 import React, { Component } from "react";
 import { ListItem, MenuButton } from "react-md";
 import { translate } from "react-i18next";
-import "./LanguageSwitcher"
+import "./LanguageSwitcher";
 
 class LanguageSwitcher extends Component {
   constructor(props) {
@@ -35,7 +33,7 @@ class LanguageSwitcher extends Component {
   render() {
     const languages = [
       { code: "en", label: "English" },
-      { code: "es", label: "Español" },
+      { code: "es", label: "Español" }
     ];
 
     return (
@@ -44,7 +42,9 @@ class LanguageSwitcher extends Component {
           flat
           id="lang-menu"
           centered
-          menuItems={languages.map(language => this.renderLanguageChoice(language))}
+          menuItems={languages.map(language =>
+            this.renderLanguageChoice(language)
+          )}
         >
           {this.state.language}
         </MenuButton>
@@ -54,4 +54,3 @@ class LanguageSwitcher extends Component {
 }
 
 export default translate()(LanguageSwitcher);
-

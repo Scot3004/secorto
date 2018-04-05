@@ -10,9 +10,7 @@ class PortfolioPage extends Component {
           <title>{`About | ${config.siteTitle}`}</title>
           <link rel="canonical" href={`${config.siteUrl}/portfolio/`} />
         </Helmet>
-        <div>
-            Hola
-        </div>
+        <div>Hola</div>
       </div>
     );
   }

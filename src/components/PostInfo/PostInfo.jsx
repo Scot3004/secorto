@@ -16,7 +16,7 @@ class PostInfo extends Component {
         <CardTitle
           avatar={<Avatar icon={<FontIcon iconClassName="fa fa-calendar" />} />}
           title={t("published on", post)}
-          subtitle={t("readTime", {count: postNode.timeToRead})}
+          subtitle={t("readTime", { count: postNode.timeToRead })}
         />
         <Link
           className="category-link"

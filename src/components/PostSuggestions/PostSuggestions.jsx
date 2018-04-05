@@ -19,7 +19,9 @@ class PostSuggestions extends Component {
             arrow_back
           </FontIcon>
           <div className="headline-container hide-on-mobile">
-            <h2 className="md-body-2 secondary-color">{t("commons:previous")}</h2>
+            <h2 className="md-body-2 secondary-color">
+              {t("commons:previous")}
+            </h2>
             <h6 className="md-headline secondary-color">
               {postFields.prevTitle}
             </h6>
