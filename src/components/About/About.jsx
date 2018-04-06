@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import Card from "react-md/lib/Cards/Card";
-import CardText from "react-md/lib/Cards/CardText";
+import { Card, CardText} from "react-md";
+import { translate } from "react-i18next";
 import UserLinks from "../UserLinks/UserLinks";
 import config from "../../../data/SiteConfig";
 import "./About.scss";
 
 class About extends Component {
   render() {
+    const { t } = this.props;
     return (
       <div className="about-container md-grid mobile-fix">
         <Card className="md-grid md-cell--8">
@@ -17,7 +18,7 @@ class About extends Component {
               alt={config.userName}
             />
             <CardText>
-              <p className="about-text md-body-1">{config.userDescription}</p>
+              <p className="about-text md-body-1">{t("description")}</p>
             </CardText>
             <UserLinks labeled config={config} />
           </div>
@@ -27,4 +28,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default translate("about")(About);
