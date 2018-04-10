@@ -1,6 +1,7 @@
 module.exports = {
   blogPostDir: "posts", // The name of directory that contains your posts.
   siteTitle: "Sergio Orozco", // Site title.
+  shortTitle: "SeCOrTo", // Site title.
   siteTitleAlt: "Sergio Orozco Torres website", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://www.secorto.com", // Domain of your website without pathPrefix.
