@@ -9,12 +9,14 @@
       "components": [ "Link" ],
       "specialLink": [ "hrefLeft", "hrefRight", "to" ],
       "aspects": [ "noHref", "invalidHref", "preferButton" ]
-    }]
+    }],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.js", "**/*.spec.js" , "**/*.spec.jsx", "src/setupTests.js"]}]
   },
   "settings": {
     "import/core-modules": []
   },
   "env": {
+    "jest": true,
     "browser": true
   }
 }

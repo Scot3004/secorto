@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="nav-image"
+>
+  <CardTitle
+    avatar={
+      <img
+        alt="userName"
+        role="presentation"
+        src="userAvatar"
+        style={
+          Object {
+            "height": 72,
+            "padding": 10,
+            "width": 72,
+          }
+        }
+      />
+    }
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+    subtitle="Web developer"
+    title="userName"
+  />
+</div>
+`;
