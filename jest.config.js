@@ -17,10 +17,12 @@ module.exports = {
   "moduleNameMapper": {
     "\\.(scss|svg|png|jpg)$": "<rootDir>/src/styleMock.js"
   },
-  "collectCoverage": true,
-  "coverageReporters": [
-    "lcov",
-    "text",
-    "html"
-  ]
+  "collectCoverage": process.env.CI === "true",
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/vendor/**",
+    "!**/public/**"
+  ],
+  "coverageReporters": process.env.CI === "true" ?  ['lcov'] : ['text', 'html'],
 }
