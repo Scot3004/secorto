@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<NavigationDrawer
+  autoclose={true}
+  constantDrawerType={false}
+  contentClassName="main-content"
+  contentComponent="main"
+  contentId="main-content"
+  defaultMedia="mobile"
+  desktopDrawerType="full-height"
+  desktopMinWidth={1025}
+  drawerTitle={
+    <NavImage
+      config={
+        Object {
+          "userAvatar": "userAvatar",
+          "userName": "userName",
+        }
+      }
+    />
+  }
+  drawerTransitionDuration={300}
+  extractMini={true}
+  includeDrawerHeader={true}
+  jumpLabel="Jump to content"
+  mobileDrawerType="temporary"
+  mobileMinWidth={320}
+  navItems={
+    Array [
+      Object {
+        "component": [Function],
+        "leftIcon": <FontIcon
+          iconClassName="material-icons"
+        >
+          home
+        </FontIcon>,
+        "primaryText": "Home",
+        "to": "/",
+      },
+      Object {
+        "divider": true,
+      },
+      Object {
+        "divider": true,
+      },
+      Object {
+        "component": [Function],
+        "leftIcon": <FontIcon
+          iconClassName="material-icons"
+        >
+          person
+        </FontIcon>,
+        "primaryText": "About",
+        "to": "/about/",
+      },
+    ]
+  }
+  persistentIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      arrow_back
+    </FontIcon>
+  }
+  position="left"
+  tabletDrawerType="temporary"
+  tabletMinWidth={768}
+  temporaryIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      menu
+    </FontIcon>
+  }
+  toolbarActions={
+    <Toolbar
+      config={
+        Object {
+          "userAvatar": "userAvatar",
+          "userName": "userName",
+        }
+      }
+    />
+  }
+  toolbarThemeType="colored"
+  transitionEnterTimeout={300}
+  transitionName="md-cross-fade"
+>
+  <div
+    className="main-container"
+  />
+  <Footer
+    userLinks={true}
+  />
+</NavigationDrawer>
+`;

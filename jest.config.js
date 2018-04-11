@@ -7,9 +7,6 @@ module.exports = {
     "/node_modules/",
     "/.cache/"
   ],
-  "setupFiles": [
-    "./src/setupTests.js"
-  ],
   "moduleFileExtensions": [
     "jsx",
     "js"
@@ -25,4 +22,5 @@ module.exports = {
     "!**/public/**"
   ],
   "coverageReporters": process.env.CI === "true" ?  ['lcov'] : ['text', 'html'],
+  "setupTestFrameworkScriptFile": "./src/setupTests.js"
 }

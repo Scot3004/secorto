@@ -160,4 +160,9 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
   if (stage === "build-javascript") {
     config.plugin("Lodash", webpackLodashPlugin, null);
   }
+  config.merge({
+    resolve: {
+      root: [path.resolve('./src')]
+    }
+  })
 };
