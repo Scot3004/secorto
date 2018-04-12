@@ -12,3 +12,19 @@ it('renders correctly', () => {
   const tree = shallow(<Navigation config={config} />);
   expect(toJson(tree)).toMatchSnapshot();
 });
+
+it('renders social links', () => {
+  const config = {
+    userAvatar: "userAvatar",
+    userName: "userName",
+    userLinks: [
+      {
+        label: "LinkLabel",
+        url: "https://example.com",
+        iconClassName: "fa fa-github"
+      }
+    ]
+  }
+  const tree = shallow(<Navigation config={config} />);
+  expect(toJson(tree)).toMatchSnapshot();
+});
