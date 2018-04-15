@@ -1,14 +1,14 @@
-[![Code Climate](https://codeclimate.com/github/Vagr9K/gatsby-material-starter/badges/gpa.svg)](https://codeclimate.com/github/Vagr9K/gatsby-material-starter)
-[![Issue Count](https://codeclimate.com/github/Vagr9K/gatsby-material-starter/badges/issue_count.svg)](https://codeclimate.com/github/Vagr9K/gatsby-material-starter)
+[![Code Climate](https://codeclimate.com/github/Scot3004/secorto/badges/gpa.svg)](https://codeclimate.com/github/Scot3004/secorto/)
+[![Issue Count](https://codeclimate.com/github/Scot3004/secorto/badges/issue_count.svg)](https://codeclimate.com/github/Scot3004/secorto/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820)](https://www.codacy.com/app/Vagr9K/gatsby-material-starter?utm_source=github.com&utm_medium=referral&utm_content=Vagr9K/gatsby-material-starter&utm_campaign=Badge_Grade)
 
 <div align="center">
-    <img src="docs/logo.png" alt="Logo" width='200px' height='200px'/>
+    <img src="docs/logo_200.png" alt="Logo" width='200px' height='200px'/>
 </div>
 
-# Gatsby Material Starter
+# Sergio Orozco Torres website
 
-A blog starter with Material design in mind for [Gatsby](https://github.com/gatsbyjs/gatsby/).
+Personal website based on blog starter with Material design in mind for [Gatsby](https://github.com/gatsbyjs/gatsby/).
 
 [Demo website.](https://vagr9k.github.io/gatsby-material-starter/)
 
@@ -16,7 +16,7 @@ A blog starter with Material design in mind for [Gatsby](https://github.com/gats
 
 ## GatsbyJS V1
 
-This starter is based on GatsbyJS V1, which brings progressive web app features such as automatic code and data splitting (by route), prefetching, with service worker/offline-first support and PRPL pattern.
+This website is based on GatsbyJS V1, which brings progressive web app features such as automatic code and data splitting (by route), prefetching, with service worker/offline-first support and PRPL pattern.
 
 More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-first-beta-release/).
 
@@ -81,7 +81,7 @@ More information in the [announcement](https://www.gatsbyjs.org/blog/gatsby-firs
 
 NOTE: Take a look at [gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) if you prefer building UI from scratch and/or only interested in fundamental features.
 
-You can also visit [my personal blog](https://vagr9k.me) if you want to see a fully implemented blog based on this starter.
+You can also visit [Ruben's personal blog](https://vagr9k.me), other example of blog using the same starter.
 
 ![Article Screenshot](docs/screenshot-article.png)
 ![Mobile Screenshot](docs/screenshot-mobile.png)
@@ -150,7 +150,7 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2017. Material User" // Copyright string for the footer of the website and RSS feed.
+  copyright: "Copyright © 2018. Material User" // Copyright string for the footer of the website and RSS feed.
 };
 ```
 
