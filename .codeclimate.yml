@@ -9,6 +9,7 @@ engines:
       languages:
         javascript:
           mass_threshold: 70
+      config: .eslintrc.json
 
 ratings:
    paths:
