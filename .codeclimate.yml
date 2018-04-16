@@ -1,6 +1,7 @@
 engines:
   eslint:
     enabled: true
+    config: .eslintrc.json
   stylelint:
     enabled: true
   duplication:
@@ -9,7 +10,6 @@ engines:
       languages:
         javascript:
           mass_threshold: 80
-      config: .eslintrc.json
 
 ratings:
    paths:
