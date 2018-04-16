@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="post-info"
+>
+  <CardTitle
+    avatar={
+      <Avatar
+        icon={
+          <FontIcon
+            iconClassName="fa fa-calendar"
+          />
+        }
+        suffixes={
+          Array [
+            "red",
+            "pink",
+            "purple",
+            "deep-purple",
+            "indigo",
+            "blue",
+            "light-blue",
+            "cyan",
+            "teal",
+            "green",
+            "light-green",
+            "lime",
+            "yellow",
+            "amber",
+            "orange",
+            "deep-orange",
+            "brown",
+            "grey",
+            "blue-grey",
+          ]
+        }
+      />
+    }
+    subtitle="readTime"
+    title="published on"
+  />
+  <GatsbyLink
+    className="category-link"
+    to="/categories/category"
+  >
+    <CardTitle
+      avatar={
+        <Avatar
+          icon={
+            <FontIcon
+              iconClassName="fa fa-folder-open"
+            />
+          }
+          suffixes={
+            Array [
+              "red",
+              "pink",
+              "purple",
+              "deep-purple",
+              "indigo",
+              "blue",
+              "light-blue",
+              "cyan",
+              "teal",
+              "green",
+              "light-green",
+              "lime",
+              "yellow",
+              "amber",
+              "orange",
+              "deep-orange",
+              "brown",
+              "grey",
+              "blue-grey",
+            ]
+          }
+        />
+      }
+      subtitle="category"
+      title="category"
+    />
+  </GatsbyLink>
+</div>
+`;
