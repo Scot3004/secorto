@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="md-grid md-grid--no-spacing md-cell--middle"
+>
+  <div
+    className="md-grid md-cell--8 mobile-fix"
+  >
+    <Translate(PostPreview)
+      key="Introducing Gatsby Material Starter"
+      postInfo={
+        Object {
+          "cover": "/logos/logo-1024.png",
+          "date": "18/07/2017",
+          "excerpt": "This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…",
+          "path": "/introducing-gatsby-material-starter",
+          "tags": Array [
+            "gatsby",
+            "material",
+            "starter",
+          ],
+          "timeToRead": 2,
+          "title": "Introducing Gatsby Material Starter",
+        }
+      }
+    />
+    <Translate(PostPreview)
+      key="Big Test"
+      postInfo={
+        Object {
+          "cover": "https://unsplash.it/400/300/?random?BigTest",
+          "date": "01/03/2018",
+          "excerpt": "NOTE: This \\"post\\" is based on  Markdown Cheatsheet  and is meant to test styling of Markdown generated documents. This is intended as a…",
+          "path": "/big-sample-test",
+          "tags": Array [
+            "test",
+            "huge",
+          ],
+          "timeToRead": 8,
+          "title": "Big Test",
+        }
+      }
+    />
+  </div>
+</div>
+`;
