@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="post-tag-container"
+>
+  <GatsbyLink
+    key="gatsby"
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+    to="/tags/gatsby"
+  >
+    <Chip
+      className="post-preview-tags"
+      label="gatsby"
+      rotateIcon={true}
+    >
+      <FontIcon
+        iconClassName="material-icons"
+      >
+        add_circle
+      </FontIcon>
+    </Chip>
+  </GatsbyLink>
+  <GatsbyLink
+    key="material"
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+    to="/tags/material"
+  >
+    <Chip
+      className="post-preview-tags"
+      label="material"
+      rotateIcon={true}
+    >
+      <FontIcon
+        iconClassName="material-icons"
+      >
+        add_circle
+      </FontIcon>
+    </Chip>
+  </GatsbyLink>
+  <GatsbyLink
+    key="starter"
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+    to="/tags/starter"
+  >
+    <Chip
+      className="post-preview-tags"
+      label="starter"
+      rotateIcon={true}
+    >
+      <FontIcon
+        iconClassName="material-icons"
+      >
+        add_circle
+      </FontIcon>
+    </Chip>
+  </GatsbyLink>
+</div>
+`;
