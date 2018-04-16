@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="post-suggestions md-grid md-cell--12"
+>
+  <GatsbyLink
+    className="post-suggestion"
+    to="prevSlug"
+  >
+    <FontIcon
+      className="secondary-color arrow-nav"
+      forceFontSize={true}
+      forceSize={64}
+      iconClassName="material-icons"
+    >
+      arrow_back
+    </FontIcon>
+    <div
+      className="headline-container hide-on-mobile"
+    >
+      <h2
+        className="md-body-2 secondary-color"
+      >
+        commons:previous
+      </h2>
+      <h6
+        className="md-headline secondary-color"
+      >
+        prevTitle
+      </h6>
+    </div>
+  </GatsbyLink>
+  <GatsbyLink
+    className="post-suggestion"
+    to="nextSlug"
+  >
+    <div
+      className="headline-container"
+    >
+      <h2
+        className="md-body-2 secondary-color"
+      >
+        commons:next
+      </h2>
+      <h6
+        className="md-headline secondary-color"
+      >
+        nextTitle
+      </h6>
+    </div>
+    <FontIcon
+      className="secondary-color arrow-nav"
+      forceFontSize={true}
+      forceSize={64}
+      iconClassName="material-icons"
+    >
+      arrow_forward
+    </FontIcon>
+  </GatsbyLink>
+</div>
+`;
