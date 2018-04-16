@@ -45,6 +45,7 @@
     "babel-plugin-syntax-class-properties": "^6.13.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "cli-glob": "^0.1.0",
+    "codacy-coverage": "^2.1.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
@@ -85,7 +86,8 @@
     "lint:md": "remark content/posts/",
     "write-good": "write-good $(glob 'content/posts/**/*.md')",
     "format:js": "prettier '**/*.{js,jsx}' --write",
-    "test": "jest"
+    "test": "jest",
+    "codacy": "cat ./coverage/lcov.info | codacy-coverage"
   },
   "remarkConfig": {
     "plugins": [
