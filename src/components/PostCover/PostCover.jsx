@@ -19,4 +19,8 @@ class PostCover extends Component {
   }
 }
 
+PostCover.defaultProps = {
+  mobile: true
+}
+
 export default PostCover;

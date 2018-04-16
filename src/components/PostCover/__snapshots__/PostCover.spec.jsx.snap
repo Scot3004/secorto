@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly desktop 1`] = `
+<div
+  className="md-grid md-cell--9 post-cover"
+  style={
+    Object {
+      "backgroundImage": "url(postcover)",
+      "height": "350px",
+    }
+  }
+/>
+`;
+
+exports[`renders correctly mobile 1`] = `
+<div
+  className="md-grid md-cell--9 post-cover"
+  style={
+    Object {
+      "backgroundImage": "url(postcover)",
+      "height": "180px",
+    }
+  }
+/>
+`;
+
+exports[`renders correctly relative cover 1`] = `
+<div
+  className="md-grid md-cell--9 post-cover"
+  style={
+    Object {
+      "backgroundImage": "url(http://localhost/postcover)",
+      "height": "180px",
+    }
+  }
+/>
+`;

@@ -21,6 +21,9 @@ module.exports = {
     "!**/vendor/**",
     "!**/public/**"
   ],
-  "coverageReporters": process.env.CI === "true" ?  ['lcov'] : ['text', 'html'],
-  "setupTestFrameworkScriptFile": "./src/setupTests.js"
+  "coverageReporters": process.env.CI === "true" ?  ['lcov'] : ['lcov', 'text', 'html'],
+  "setupTestFrameworkScriptFile": "./src/setupTests.js",
+  globals: {
+    __PATH_PREFIX__: "http://localhost"
+  }
 }
