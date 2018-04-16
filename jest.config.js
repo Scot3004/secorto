@@ -19,7 +19,8 @@ module.exports = {
     "**/*.{js,jsx}",
     "!**/node_modules/**",
     "!**/vendor/**",
-    "!**/public/**"
+    "!**/public/**",
+    "!**/coverage/**"
   ],
   "coverageReporters": process.env.CI === "true" ?  ['lcov'] : ['lcov', 'text', 'html'],
   "setupTestFrameworkScriptFile": "./src/setupTests.js",
