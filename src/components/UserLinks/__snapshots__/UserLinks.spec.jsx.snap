@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`div on empty userlinks 1`] = `
+<div
+  className="user-links"
+/>
+`;
+
+exports[`null when not send userlinks 1`] = `""`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="user-links"
+>
+  <withInk(withTooltip(Button))
+    href="https://github.com/Scot3004"
+    icon={true}
+    iconClassName="fa fa-github"
+    inkTransitionEnterTimeout={450}
+    inkTransitionLeaveTimeout={300}
+    inkTransitionOverlap={150}
+    key="GitHub"
+    secondary={true}
+  />
+  <withInk(withTooltip(Button))
+    href="https://facebook.com/Scot3004"
+    icon={true}
+    iconClassName="fa fa-facebook"
+    inkTransitionEnterTimeout={450}
+    inkTransitionLeaveTimeout={300}
+    inkTransitionOverlap={150}
+    key="Facebook"
+    secondary={true}
+  />
+  <withInk(withTooltip(Button))
+    href="https://twitter.com/Scot3004"
+    icon={true}
+    iconClassName="fa fa-twitter"
+    inkTransitionEnterTimeout={450}
+    inkTransitionLeaveTimeout={300}
+    inkTransitionOverlap={150}
+    key="Twitter"
+    secondary={true}
+  />
+</div>
+`;
+
+exports[`renders correctly 2`] = `
+<div
+  className="user-links"
+>
+  <withInk(withTooltip(Button))
+    flat={true}
+    href="https://github.com/Scot3004"
+    icon={false}
+    iconClassName="fa fa-github"
+    inkTransitionEnterTimeout={450}
+    inkTransitionLeaveTimeout={300}
+    inkTransitionOverlap={150}
+    key="GitHub"
+    secondary={true}
+  >
+    GitHub
+  </withInk(withTooltip(Button))>
+  <withInk(withTooltip(Button))
+    flat={true}
+    href="https://facebook.com/Scot3004"
+    icon={false}
+    iconClassName="fa fa-facebook"
+    inkTransitionEnterTimeout={450}
+    inkTransitionLeaveTimeout={300}
+    inkTransitionOverlap={150}
+    key="Facebook"
+    secondary={true}
+  >
+    Facebook
+  </withInk(withTooltip(Button))>
+  <withInk(withTooltip(Button))
+    flat={true}
+    href="https://twitter.com/Scot3004"
+    icon={false}
+    iconClassName="fa fa-twitter"
+    inkTransitionEnterTimeout={450}
+    inkTransitionLeaveTimeout={300}
+    inkTransitionOverlap={150}
+    key="Twitter"
+    secondary={true}
+  >
+    Twitter
+  </withInk(withTooltip(Button))>
+</div>
+`;
