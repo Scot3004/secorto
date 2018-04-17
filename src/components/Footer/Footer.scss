@@ -1,6 +1,7 @@
 @import '../../layouts/theme.scss';
 
 .footer {
+  color: $md-white-base;
   justify-content: center;
   align-content: center;
   background-color: $md-primary-color;
@@ -10,12 +11,13 @@
     display: flex;
     align-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 1rem;
 
     .copyright {
       display: flex;
       flex: 1;
       justify-content: flex-start;
+      padding: 0 1rem;
 
       @media (max-width: 640px - 1px) {
         justify-content: center;
@@ -42,17 +44,18 @@
 
       flex: 1;
       justify-content: flex-end;
-    }
 
-    h4 {
-      color: $md-white-base;
-      text-align: center;
-      margin: 0;
+      a {
+        padding-left: 0.4em;
+      }
     }
   }
+}
 
-  a:link,
-  a:visited {
+.footer .md-btn,
+.footer-link {
+  &:link,
+  &:visited {
     color: $md-white-base;
   }
 }

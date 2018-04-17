@@ -13,9 +13,8 @@ class Footer extends Component {
         {userLinks ? <UserLinks config={config} labeled /> : null}
         <div className="notice-container">
           <div className="copyright">
-            <h4>{copyright}</h4>
+            {copyright}
           </div>
-
           <div className="rss">
             <Link to={siteRss}>
               <Button flat primary swapTheming iconClassName="fa fa-rss">
@@ -24,12 +23,13 @@ class Footer extends Component {
             </Link>
           </div>
           <div className="based-on">
-            <h4>
-              Based on{" "}
-              <a href="https://github.com/Vagr9K/gatsby-material-starter">
-                Gatsby Material Starter
-              </a>.
-            </h4>
+            Based on
+            <a
+              className="footer-link"
+              href="https://github.com/Vagr9K/gatsby-material-starter"
+            >
+              Gatsby Material Starter
+            </a>.
           </div>
         </div>
       </footer>
