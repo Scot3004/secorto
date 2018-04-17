@@ -20,7 +20,8 @@ module.exports = {
     "!**/node_modules/**",
     "!**/vendor/**",
     "!**/public/**",
-    "!**/coverage/**"
+    "!**/coverage/**",
+    "!**/jest.config.js",
   ],
   "coverageReporters": process.env.CI === "true" ?  ['lcov'] : ['lcov', 'text', 'html'],
   "setupTestFrameworkScriptFile": "./src/setupTests.js",
