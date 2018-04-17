@@ -10,9 +10,7 @@ exports[`renders correctly empty config 1`] = `
     <div
       className="copyright"
     >
-      <h4>
-        copyright
-      </h4>
+      copyright
     </div>
     <div
       className="rss"
@@ -36,16 +34,14 @@ exports[`renders correctly empty config 1`] = `
     <div
       className="based-on"
     >
-      <h4>
-        Based on
-         
-        <a
-          href="https://github.com/Vagr9K/gatsby-material-starter"
-        >
-          Gatsby Material Starter
-        </a>
-        .
-      </h4>
+      Based on
+      <a
+        className="footer-link"
+        href="https://github.com/Vagr9K/gatsby-material-starter"
+      >
+        Gatsby Material Starter
+      </a>
+      .
     </div>
   </div>
 </footer>
@@ -60,9 +56,7 @@ exports[`renders correctly fixedFooter 1`] = `
   >
     <div
       className="copyright"
-    >
-      <h4 />
-    </div>
+    />
     <div
       className="rss"
     >
@@ -85,16 +79,14 @@ exports[`renders correctly fixedFooter 1`] = `
     <div
       className="based-on"
     >
-      <h4>
-        Based on
-         
-        <a
-          href="https://github.com/Vagr9K/gatsby-material-starter"
-        >
-          Gatsby Material Starter
-        </a>
-        .
-      </h4>
+      Based on
+      <a
+        className="footer-link"
+        href="https://github.com/Vagr9K/gatsby-material-starter"
+      >
+        Gatsby Material Starter
+      </a>
+      .
     </div>
   </div>
 </footer>
@@ -118,9 +110,7 @@ exports[`renders correctly userlinks 1`] = `
   >
     <div
       className="copyright"
-    >
-      <h4 />
-    </div>
+    />
     <div
       className="rss"
     >
@@ -143,16 +133,14 @@ exports[`renders correctly userlinks 1`] = `
     <div
       className="based-on"
     >
-      <h4>
-        Based on
-         
-        <a
-          href="https://github.com/Vagr9K/gatsby-material-starter"
-        >
-          Gatsby Material Starter
-        </a>
-        .
-      </h4>
+      Based on
+      <a
+        className="footer-link"
+        href="https://github.com/Vagr9K/gatsby-material-starter"
+      >
+        Gatsby Material Starter
+      </a>
+      .
     </div>
   </div>
 </footer>

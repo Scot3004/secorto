@@ -91,6 +91,12 @@ exports[`renders correctly 1`] = `
     className="main-container"
   />
   <Footer
+    config={
+      Object {
+        "userAvatar": "userAvatar",
+        "userName": "userName",
+      }
+    }
     userLinks={true}
   />
 </NavigationDrawer>
@@ -210,6 +216,19 @@ exports[`renders social links 1`] = `
     className="main-container"
   />
   <Footer
+    config={
+      Object {
+        "userAvatar": "userAvatar",
+        "userLinks": Array [
+          Object {
+            "iconClassName": "fa fa-github",
+            "label": "LinkLabel",
+            "url": "https://example.com",
+          },
+        ],
+        "userName": "userName",
+      }
+    }
     userLinks={true}
   />
 </NavigationDrawer>
