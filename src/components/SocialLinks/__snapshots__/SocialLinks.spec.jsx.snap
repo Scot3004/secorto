@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="social-links"
+>
+  <CreatedButton
+    title="Introducing Gatsby Material Starter"
+    url="https://www.secorto.com/undefined"
+    windowHeight={460}
+    windowWidth={660}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={48}
+    />
+    <Component
+      url="https://www.secorto.com/undefined"
+    />
+  </CreatedButton>
+  <CreatedButton
+    title="Introducing Gatsby Material Starter"
+    url="https://www.secorto.com/undefined"
+    windowHeight={400}
+    windowWidth={550}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={48}
+    />
+  </CreatedButton>
+  <CreatedButton
+    url="https://www.secorto.com/undefined"
+    windowHeight={400}
+    windowWidth={550}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={48}
+    />
+    <Component
+      url="https://www.secorto.com/undefined"
+    />
+  </CreatedButton>
+  <CreatedButton
+    quote="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    url="https://www.secorto.com/undefined"
+    windowHeight={400}
+    windowWidth={550}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={48}
+    />
+    <Component
+      url="https://www.secorto.com/undefined"
+    />
+  </CreatedButton>
+  <CreatedButton
+    description="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    title="Introducing Gatsby Material Starter"
+    url="https://www.secorto.com/undefined"
+    windowHeight={600}
+    windowWidth={750}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={48}
+    />
+    <Component
+      url="https://www.secorto.com/undefined"
+    />
+  </CreatedButton>
+  <CreatedButton
+    url="https://www.secorto.com/undefined"
+    windowHeight={400}
+    windowWidth={550}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={48}
+    />
+  </CreatedButton>
+</div>
+`;
+
+exports[`renders correctly mobile 1`] = `
+<div
+  className="social-links"
+>
+  <CreatedButton
+    title="Introducing Gatsby Material Starter"
+    url="https://www.secorto.com/undefined"
+    windowHeight={460}
+    windowWidth={660}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={36}
+    />
+    <Component
+      url="https://www.secorto.com/undefined"
+    />
+  </CreatedButton>
+  <CreatedButton
+    title="Introducing Gatsby Material Starter"
+    url="https://www.secorto.com/undefined"
+    windowHeight={400}
+    windowWidth={550}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={36}
+    />
+  </CreatedButton>
+  <CreatedButton
+    url="https://www.secorto.com/undefined"
+    windowHeight={400}
+    windowWidth={550}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={36}
+    />
+    <Component
+      url="https://www.secorto.com/undefined"
+    />
+  </CreatedButton>
+  <CreatedButton
+    quote="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    url="https://www.secorto.com/undefined"
+    windowHeight={400}
+    windowWidth={550}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={36}
+    />
+    <Component
+      url="https://www.secorto.com/undefined"
+    />
+  </CreatedButton>
+  <CreatedButton
+    description="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    title="Introducing Gatsby Material Starter"
+    url="https://www.secorto.com/undefined"
+    windowHeight={600}
+    windowWidth={750}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={36}
+    />
+    <Component
+      url="https://www.secorto.com/undefined"
+    />
+  </CreatedButton>
+  <CreatedButton
+    url="https://www.secorto.com/undefined"
+    windowHeight={400}
+    windowWidth={550}
+  >
+    <Icon
+      className=""
+      iconBgStyle={Object {}}
+      logoFillColor="white"
+      round={true}
+      size={36}
+    />
+  </CreatedButton>
+</div>
+`;
+
+exports[`share count 0 1`] = `
+<div
+  className="share-count"
+/>
+`;
+
+exports[`share count 0 2`] = `
+<div
+  className="share-count"
+>
+  10
+</div>
+`;
