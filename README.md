@@ -1,6 +1,9 @@
+[![Build Status](https://travis-ci.org/Scot3004/secorto.svg?branch=master)](https://travis-ci.org/Scot3004/secorto)
 [![Code Climate](https://codeclimate.com/github/Scot3004/secorto/badges/gpa.svg)](https://codeclimate.com/github/Scot3004/secorto/)
 [![Issue Count](https://codeclimate.com/github/Scot3004/secorto/badges/issue_count.svg)](https://codeclimate.com/github/Scot3004/secorto/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/abbf21ce56c441ccb7047c486642e572)](https://www.codacy.com/app/Scot3004/secorto?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Scot3004/secorto&amp;utm_campaign=Badge_Grade)
+[![Coverage Badge](https://api.codacy.com/project/badge/Coverage/abbf21ce56c441ccb7047c486642e572)](https://www.codacy.com/app/Scot3004/secorto?utm_source=github.com&utm_medium=referral&utm_content=Scot3004/secorto&utm_campaign=Badge_Coverage)
+
 <div align="center">
     <img src="docs/logo_200.png" alt="Logo" width='200px' height='200px'/>
 </div>
