@@ -22,7 +22,7 @@ class Navigation extends Component {
         toolbarActions={<ToolbarActions config={config} />}
       >
         <div className="main-container">{children}</div>
-        <Footer userLinks={footerLinks} />
+        <Footer userLinks={footerLinks} config={config} />
       </NavigationDrawer>
     );
   }

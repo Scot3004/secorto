@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly empty config 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="notice-container"
+  >
+    <div
+      className="copyright"
+    >
+      <h4>
+        copyright
+      </h4>
+    </div>
+    <div
+      className="rss"
+    >
+      <GatsbyLink
+        to="rss"
+      >
+        <withInk(withTooltip(Button))
+          flat={true}
+          iconClassName="fa fa-rss"
+          inkTransitionEnterTimeout={450}
+          inkTransitionLeaveTimeout={300}
+          inkTransitionOverlap={150}
+          primary={true}
+          swapTheming={true}
+        >
+          Subscribe
+        </withInk(withTooltip(Button))>
+      </GatsbyLink>
+    </div>
+    <div
+      className="based-on"
+    >
+      <h4>
+        Based on
+         
+        <a
+          href="https://github.com/Vagr9K/gatsby-material-starter"
+        >
+          Gatsby Material Starter
+        </a>
+        .
+      </h4>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`renders correctly fixedFooter 1`] = `
+<footer
+  className="footer footer-fixed"
+>
+  <div
+    className="notice-container"
+  >
+    <div
+      className="copyright"
+    >
+      <h4 />
+    </div>
+    <div
+      className="rss"
+    >
+      <GatsbyLink
+        to="rss"
+      >
+        <withInk(withTooltip(Button))
+          flat={true}
+          iconClassName="fa fa-rss"
+          inkTransitionEnterTimeout={450}
+          inkTransitionLeaveTimeout={300}
+          inkTransitionOverlap={150}
+          primary={true}
+          swapTheming={true}
+        >
+          Subscribe
+        </withInk(withTooltip(Button))>
+      </GatsbyLink>
+    </div>
+    <div
+      className="based-on"
+    >
+      <h4>
+        Based on
+         
+        <a
+          href="https://github.com/Vagr9K/gatsby-material-starter"
+        >
+          Gatsby Material Starter
+        </a>
+        .
+      </h4>
+    </div>
+  </div>
+</footer>
+`;
+
+exports[`renders correctly userlinks 1`] = `
+<footer
+  className="footer"
+>
+  <UserLinks
+    config={
+      Object {
+        "siteRss": "rss",
+        "userLinks": "UserLinks",
+      }
+    }
+    labeled={true}
+  />
+  <div
+    className="notice-container"
+  >
+    <div
+      className="copyright"
+    >
+      <h4 />
+    </div>
+    <div
+      className="rss"
+    >
+      <GatsbyLink
+        to="rss"
+      >
+        <withInk(withTooltip(Button))
+          flat={true}
+          iconClassName="fa fa-rss"
+          inkTransitionEnterTimeout={450}
+          inkTransitionLeaveTimeout={300}
+          inkTransitionOverlap={150}
+          primary={true}
+          swapTheming={true}
+        >
+          Subscribe
+        </withInk(withTooltip(Button))>
+      </GatsbyLink>
+    </div>
+    <div
+      className="based-on"
+    >
+      <h4>
+        Based on
+         
+        <a
+          href="https://github.com/Vagr9K/gatsby-material-starter"
+        >
+          Gatsby Material Starter
+        </a>
+        .
+      </h4>
+    </div>
+  </div>
+</footer>
+`;
