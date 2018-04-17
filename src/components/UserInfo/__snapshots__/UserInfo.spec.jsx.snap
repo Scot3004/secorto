@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Card
+  animate={true}
+  className="md-grid md-cell md-cell--12 user-info"
+  expanderIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      keyboard_arrow_down
+    </FontIcon>
+  }
+  expanderTooltipPosition="left"
+>
+  <CardTitle
+    avatar={
+      <Avatar
+        role="presentation"
+        src="/logos/logo-192.png"
+        suffixes={
+          Array [
+            "red",
+            "pink",
+            "purple",
+            "deep-purple",
+            "indigo",
+            "blue",
+            "light-blue",
+            "cyan",
+            "teal",
+            "green",
+            "light-green",
+            "lime",
+            "yellow",
+            "amber",
+            "orange",
+            "deep-orange",
+            "brown",
+            "grey",
+            "blue-grey",
+          ]
+        }
+      />
+    }
+    expander={true}
+    subtitle={
+      <Follow
+        onLoad={[Function]}
+        options={
+          Object {
+            "count": "none",
+          }
+        }
+        username="scot3004"
+      />
+    }
+    title="Sergio Orozco"
+  />
+  <CardText
+    component="section"
+    expandable={true}
+  >
+    <IconSeparator
+      component="div"
+      iconBefore={true}
+      label="Barranquilla, Colombia"
+    >
+      <FontIcon
+        iconClassName="fa fa-map-marker"
+      />
+    </IconSeparator>
+    <p>
+      Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.
+    </p>
+    <UserLinks
+      config={
+        Object {
+          "userAvatar": "/logos/logo-192.png",
+          "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+          "userLinks": Array [
+            Object {
+              "iconClassName": "fa fa-github",
+              "label": "GitHub",
+              "url": "https://github.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-facebook",
+              "label": "Facebook",
+              "url": "https://facebook.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-twitter",
+              "label": "Twitter",
+              "url": "https://twitter.com/Scot3004",
+            },
+          ],
+          "userLocation": "Barranquilla, Colombia",
+          "userName": "Sergio Orozco",
+          "userTwitter": "scot3004",
+        }
+      }
+    />
+  </CardText>
+</Card>
+`;
+
+exports[`renders correctly empty config 1`] = `""`;
+
+exports[`renders correctly no twitter 1`] = `
+<Card
+  animate={true}
+  className="md-grid md-cell md-cell--12 user-info"
+  expanderIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      keyboard_arrow_down
+    </FontIcon>
+  }
+  expanderTooltipPosition="left"
+>
+  <CardTitle
+    avatar={
+      <Avatar
+        role="presentation"
+        src="/logos/logo-192.png"
+        suffixes={
+          Array [
+            "red",
+            "pink",
+            "purple",
+            "deep-purple",
+            "indigo",
+            "blue",
+            "light-blue",
+            "cyan",
+            "teal",
+            "green",
+            "light-green",
+            "lime",
+            "yellow",
+            "amber",
+            "orange",
+            "deep-orange",
+            "brown",
+            "grey",
+            "blue-grey",
+          ]
+        }
+      />
+    }
+    expander={true}
+    subtitle="Author"
+    title="Sergio Orozco"
+  />
+  <CardText
+    component="section"
+    expandable={true}
+  >
+    <IconSeparator
+      component="div"
+      iconBefore={true}
+      label="Barranquilla, Colombia"
+    >
+      <FontIcon
+        iconClassName="fa fa-map-marker"
+      />
+    </IconSeparator>
+    <p>
+      Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.
+    </p>
+    <UserLinks
+      config={
+        Object {
+          "userAvatar": "/logos/logo-192.png",
+          "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+          "userLinks": Array [
+            Object {
+              "iconClassName": "fa fa-github",
+              "label": "GitHub",
+              "url": "https://github.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-facebook",
+              "label": "Facebook",
+              "url": "https://facebook.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-twitter",
+              "label": "Twitter",
+              "url": "https://twitter.com/Scot3004",
+            },
+          ],
+          "userLocation": "Barranquilla, Colombia",
+          "userName": "Sergio Orozco",
+          "userTwitter": null,
+        }
+      }
+    />
+  </CardText>
+</Card>
+`;
+
+exports[`renders correctly user links 1`] = `
+<Card
+  animate={true}
+  className="md-grid md-cell md-cell--12 user-info"
+  expanderIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      keyboard_arrow_down
+    </FontIcon>
+  }
+  expanderTooltipPosition="left"
+>
+  <UserLinks
+    config={
+      Object {
+        "userLinks": Array [
+          Object {
+            "iconClassName": "fa fa-github",
+            "label": "GitHub",
+            "url": "https://github.com/Scot3004",
+          },
+          Object {
+            "iconClassName": "fa fa-facebook",
+            "label": "Facebook",
+            "url": "https://facebook.com/Scot3004",
+          },
+          Object {
+            "iconClassName": "fa fa-twitter",
+            "label": "Twitter",
+            "url": "https://twitter.com/Scot3004",
+          },
+        ],
+      }
+    }
+  />
+</Card>
+`;
