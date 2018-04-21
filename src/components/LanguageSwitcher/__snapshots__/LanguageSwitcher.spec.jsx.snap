@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LanguageSwitcher should render correct content 1`] = `
+<div
+  className="LanguageSwitcher"
+>
+  <MenuButton
+    centered={true}
+    defaultVisible={false}
+    flat={true}
+    id="lang-menu"
+    menuItems={
+      Array [
+        <ListItem
+          activeClassName="md-text--theme-primary"
+          animateNestedItems={true}
+          component="div"
+          expanderIcon={
+            <FontIcon
+              iconClassName="material-icons"
+            >
+              keyboard_arrow_down
+            </FontIcon>
+          }
+          itemComponent="li"
+          onClick={[Function]}
+          primaryText="English (en)"
+        />,
+        <ListItem
+          activeClassName="md-text--theme-primary"
+          animateNestedItems={true}
+          component="div"
+          expanderIcon={
+            <FontIcon
+              iconClassName="material-icons"
+            >
+              keyboard_arrow_down
+            </FontIcon>
+          }
+          itemComponent="li"
+          onClick={[Function]}
+          primaryText="Español (es)"
+        />,
+      ]
+    }
+    repositionOnResize={false}
+    repositionOnScroll={true}
+  >
+    es
+  </MenuButton>
+</div>
+`;
+
+exports[`LanguageSwitcher should render correct lang choice 1`] = `
+<div>
+  <ListItem
+    activeClassName="md-text--theme-primary"
+    animateNestedItems={true}
+    component="div"
+    expanderIcon={
+      <FontIcon
+        iconClassName="material-icons"
+      >
+        keyboard_arrow_down
+      </FontIcon>
+    }
+    itemComponent="li"
+    key="es"
+    onClick={[Function]}
+    primaryText="Español (es)"
+  />
+</div>
+`;
