@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should no render if not disqusShortname 1`] = `""`;
+
+exports[`should render correct content should add new comment to snackbar 1`] = `
+<Card
+  animate={true}
+  className="md-grid md-cell md-cell--12"
+  expanderIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      keyboard_arrow_down
+    </FontIcon>
+  }
+  expanderTooltipPosition="left"
+>
+  <CardTitle
+    avatar={
+      <Avatar
+        icon={
+          <FontIcon
+            iconClassName="material-icons"
+          >
+            comment
+          </FontIcon>
+        }
+        suffixes={
+          Array [
+            "red",
+            "pink",
+            "purple",
+            "deep-purple",
+            "indigo",
+            "blue",
+            "light-blue",
+            "cyan",
+            "teal",
+            "green",
+            "light-green",
+            "lime",
+            "yellow",
+            "amber",
+            "orange",
+            "deep-orange",
+            "brown",
+            "grey",
+            "blue-grey",
+          ]
+        }
+      />
+    }
+    expander={true}
+    title="Comments"
+  />
+  <CardText
+    component="section"
+    expandable={true}
+  >
+    <DisqusThread
+      category_id="category_id"
+      identifier="title"
+      onNewComment={[Function]}
+      shortname="disqusShortname"
+      title="title"
+      url="siteUrlpathPrefixpost-slug"
+    />
+  </CardText>
+  <SnackbarContainer
+    autohide={true}
+    autohideTimeout={3000}
+    onDismiss={[Function]}
+    toasts={
+      Array [
+        Object {
+          "text": "New comment available!",
+        },
+        Object {
+          "text": "New comment available!",
+        },
+      ]
+    }
+    transitionEnterTimeout={300}
+    transitionLeaveTimeout={300}
+    transitionName="md-snackbar"
+  />
+</Card>
+`;
+
+exports[`should render correct content should add new comment to snackbar 2`] = `
+<Card
+  animate={true}
+  className="md-grid md-cell md-cell--12"
+  expanderIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      keyboard_arrow_down
+    </FontIcon>
+  }
+  expanderTooltipPosition="left"
+>
+  <CardTitle
+    avatar={
+      <Avatar
+        icon={
+          <FontIcon
+            iconClassName="material-icons"
+          >
+            comment
+          </FontIcon>
+        }
+        suffixes={
+          Array [
+            "red",
+            "pink",
+            "purple",
+            "deep-purple",
+            "indigo",
+            "blue",
+            "light-blue",
+            "cyan",
+            "teal",
+            "green",
+            "light-green",
+            "lime",
+            "yellow",
+            "amber",
+            "orange",
+            "deep-orange",
+            "brown",
+            "grey",
+            "blue-grey",
+          ]
+        }
+      />
+    }
+    expander={true}
+    title="Comments"
+  />
+  <CardText
+    component="section"
+    expandable={true}
+  >
+    <DisqusThread
+      category_id="category_id"
+      identifier="title"
+      onNewComment={[Function]}
+      shortname="disqusShortname"
+      title="title"
+      url="siteUrlpathPrefixpost-slug"
+    />
+  </CardText>
+  <SnackbarContainer
+    autohide={true}
+    autohideTimeout={3000}
+    onDismiss={[Function]}
+    toasts={
+      Array [
+        Object {
+          "text": "New comment available!",
+        },
+      ]
+    }
+    transitionEnterTimeout={300}
+    transitionLeaveTimeout={300}
+    transitionName="md-snackbar"
+  />
+</Card>
+`;
+
+exports[`should render correct content should match default state 1`] = `
+<Card
+  animate={true}
+  className="md-grid md-cell md-cell--12"
+  expanderIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      keyboard_arrow_down
+    </FontIcon>
+  }
+  expanderTooltipPosition="left"
+>
+  <CardTitle
+    avatar={
+      <Avatar
+        icon={
+          <FontIcon
+            iconClassName="material-icons"
+          >
+            comment
+          </FontIcon>
+        }
+        suffixes={
+          Array [
+            "red",
+            "pink",
+            "purple",
+            "deep-purple",
+            "indigo",
+            "blue",
+            "light-blue",
+            "cyan",
+            "teal",
+            "green",
+            "light-green",
+            "lime",
+            "yellow",
+            "amber",
+            "orange",
+            "deep-orange",
+            "brown",
+            "grey",
+            "blue-grey",
+          ]
+        }
+      />
+    }
+    expander={true}
+    title="Comments"
+  />
+  <CardText
+    component="section"
+    expandable={true}
+  >
+    <DisqusThread
+      category_id="category_id"
+      identifier="title"
+      onNewComment={[Function]}
+      shortname="disqusShortname"
+      title="title"
+      url="siteUrlpathPrefixpost-slug"
+    />
+  </CardText>
+  <SnackbarContainer
+    autohide={true}
+    autohideTimeout={3000}
+    onDismiss={[Function]}
+    toasts={Array []}
+    transitionEnterTimeout={300}
+    transitionLeaveTimeout={300}
+    transitionName="md-snackbar"
+  />
+</Card>
+`;

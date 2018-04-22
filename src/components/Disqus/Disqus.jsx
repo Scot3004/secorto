@@ -7,8 +7,6 @@ import Avatar from "react-md/lib/Avatars";
 import FontIcon from "react-md/lib/FontIcons";
 import Snackbar from "react-md/lib/Snackbars";
 
-import config from "../../../data/SiteConfig";
-
 class Disqus extends Component {
   constructor(props) {
     super(props);
@@ -29,7 +27,7 @@ class Disqus extends Component {
     this.setState({ toasts });
   }
   render() {
-    const { postNode, expanded } = this.props;
+    const { postNode, expanded, config } = this.props;
     if (!config.disqusShortname) {
       return null;
     }
