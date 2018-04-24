@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <meta
+    name="description"
+  />
+  <meta
+    content="siteUrlundefined"
+    name="image"
+  />
+  <script
+    type="application/ld+json"
+  >
+    [{"@context":"http://schema.org","@type":"WebSite","url":"siteUrl/","alternateName":"siteTitleAlt"}]
+  </script>
+  <meta
+    content="siteUrl/"
+    property="og:url"
+  />
+  <meta
+    property="og:title"
+  />
+  <meta
+    property="og:description"
+  />
+  <meta
+    content="siteUrlundefined"
+    property="og:image"
+  />
+  <meta
+    content="fbid"
+    property="fb:app_id"
+  />
+  <meta
+    content="summary_large_image"
+    name="twitter:card"
+  />
+  <meta
+    content="userTwitter"
+    name="twitter:creator"
+  />
+  <meta
+    name="twitter:title"
+  />
+  <meta
+    name="twitter:description"
+  />
+  <meta
+    content="siteUrlundefined"
+    name="twitter:image"
+  />
+</HelmetWrapper>
+`;
+
+exports[`renders correctly empty config 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <meta
+    content="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    name="description"
+  />
+  <meta
+    content="undefined/logos/logo-1024.png"
+    name="image"
+  />
+  <script
+    type="application/ld+json"
+  >
+    [{"@context":"http://schema.org","@type":"WebSite","url":"undefined","name":"Introducing Gatsby Material Starter","alternateName":""},[{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"undefinedundefined","name":"Introducing Gatsby Material Starter","image":"undefined/logos/logo-1024.png"}}]},{"@context":"http://schema.org","@type":"BlogPosting","url":"undefined","name":"Introducing Gatsby Material Starter","alternateName":"","headline":"Introducing Gatsby Material Starter","image":{"@type":"ImageObject","url":"undefined/logos/logo-1024.png"},"description":"This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"}]]
+  </script>
+  <meta
+    content="undefinedundefined"
+    property="og:url"
+  />
+  <meta
+    content="article"
+    property="og:type"
+  />
+  <meta
+    content="Introducing Gatsby Material Starter"
+    property="og:title"
+  />
+  <meta
+    content="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    property="og:description"
+  />
+  <meta
+    content="undefined/logos/logo-1024.png"
+    property="og:image"
+  />
+  <meta
+    content=""
+    property="fb:app_id"
+  />
+  <meta
+    content="summary_large_image"
+    name="twitter:card"
+  />
+  <meta
+    content=""
+    name="twitter:creator"
+  />
+  <meta
+    content="Introducing Gatsby Material Starter"
+    name="twitter:title"
+  />
+  <meta
+    content="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    name="twitter:description"
+  />
+  <meta
+    content="undefined/logos/logo-1024.png"
+    name="twitter:image"
+  />
+</HelmetWrapper>
+`;
+
+exports[`renders correctly postSEO 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <meta
+    content="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    name="description"
+  />
+  <meta
+    content="siteUrl/logos/logo-1024.png"
+    name="image"
+  />
+  <script
+    type="application/ld+json"
+  >
+    [{"@context":"http://schema.org","@type":"WebSite","url":"siteUrl/","name":"Introducing Gatsby Material Starter","alternateName":"siteTitleAlt"},[{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"siteUrl/undefined","name":"Introducing Gatsby Material Starter","image":"siteUrl/logos/logo-1024.png"}}]},{"@context":"http://schema.org","@type":"BlogPosting","url":"siteUrl/","name":"Introducing Gatsby Material Starter","alternateName":"siteTitleAlt","headline":"Introducing Gatsby Material Starter","image":{"@type":"ImageObject","url":"siteUrl/logos/logo-1024.png"},"description":"This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"}]]
+  </script>
+  <meta
+    content="siteUrl/undefined"
+    property="og:url"
+  />
+  <meta
+    content="article"
+    property="og:type"
+  />
+  <meta
+    content="Introducing Gatsby Material Starter"
+    property="og:title"
+  />
+  <meta
+    content="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    property="og:description"
+  />
+  <meta
+    content="siteUrl/logos/logo-1024.png"
+    property="og:image"
+  />
+  <meta
+    content="fbid"
+    property="fb:app_id"
+  />
+  <meta
+    content="summary_large_image"
+    name="twitter:card"
+  />
+  <meta
+    content="userTwitter"
+    name="twitter:creator"
+  />
+  <meta
+    content="Introducing Gatsby Material Starter"
+    name="twitter:title"
+  />
+  <meta
+    content="This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…"
+    name="twitter:description"
+  />
+  <meta
+    content="siteUrl/logos/logo-1024.png"
+    name="twitter:image"
+  />
+</HelmetWrapper>
+`;
+
+exports[`renders correctly postmeta 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <meta
+    content="description"
+    name="description"
+  />
+  <meta
+    content="siteUrl/logos/logo-1024.png"
+    name="image"
+  />
+  <script
+    type="application/ld+json"
+  >
+    [{"@context":"http://schema.org","@type":"WebSite","url":"siteUrl/","name":"Introducing Gatsby Material Starter","alternateName":"siteTitleAlt"},[{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"siteUrl/undefined","name":"Introducing Gatsby Material Starter","image":"siteUrl/logos/logo-1024.png"}}]},{"@context":"http://schema.org","@type":"BlogPosting","url":"siteUrl/","name":"Introducing Gatsby Material Starter","alternateName":"siteTitleAlt","headline":"Introducing Gatsby Material Starter","image":{"@type":"ImageObject","url":"siteUrl/logos/logo-1024.png"},"description":"description"}]]
+  </script>
+  <meta
+    content="siteUrl/undefined"
+    property="og:url"
+  />
+  <meta
+    content="article"
+    property="og:type"
+  />
+  <meta
+    content="Introducing Gatsby Material Starter"
+    property="og:title"
+  />
+  <meta
+    content="description"
+    property="og:description"
+  />
+  <meta
+    content="siteUrl/logos/logo-1024.png"
+    property="og:image"
+  />
+  <meta
+    content="fbid"
+    property="fb:app_id"
+  />
+  <meta
+    content="summary_large_image"
+    name="twitter:card"
+  />
+  <meta
+    content="userTwitter"
+    name="twitter:creator"
+  />
+  <meta
+    content="Introducing Gatsby Material Starter"
+    name="twitter:title"
+  />
+  <meta
+    content="description"
+    name="twitter:description"
+  />
+  <meta
+    content="siteUrl/logos/logo-1024.png"
+    name="twitter:image"
+  />
+</HelmetWrapper>
+`;
