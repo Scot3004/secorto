@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="portfolio-container"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Portfolio | Sergio Orozco
+    </title>
+    <link
+      href="https://www.secorto.com/portfolio/"
+      rel="canonical"
+    />
+  </HelmetWrapper>
+  <div>
+    Hola
+  </div>
+</div>
+`;
