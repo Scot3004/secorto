@@ -4,14 +4,15 @@
 import React from "react";
 import favicon from "./favicon.png";
 
-let inlinedStyles = "";
-if (process.env.NODE_ENV === "production") {
+
+export const getInlinedStyles = () => {
   try {
     /* eslint import/no-webpack-loader-syntax: off */
-    inlinedStyles = require("!raw-loader!../public/styles.css");
+    return require("!raw-loader!../public/styles.css");
   } catch (e) {
     /* eslint no-console: "off" */
     console.log(e);
+    return {}
   }
 }
 
@@ -22,7 +23,7 @@ export default class HTML extends React.Component {
       css = (
         <style
           id="gatsby-inlined-css"
-          dangerouslySetInnerHTML={{ __html: inlinedStyles }}
+          dangerouslySetInnerHTML={{ __html: getInlinedStyles() }}
         />
       );
     }
