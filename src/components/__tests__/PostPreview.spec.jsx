@@ -29,10 +29,16 @@ const postInfo = {
 it('renders correctly', () => {
   const tree = shallow(<PostPreview postInfo={postInfo} />);
   expect(toJson(tree)).toMatchSnapshot();
-  global.innerWidth = 600;
-  tree.simulate("resize");
-  expect(toJson(tree)).toMatchSnapshot();
 });
+
+it('renders correctly Mobile', () => {
+  const testsWidth = global.innerWidth;
+  global.innerWidth = 600;
+  const tree = shallow(<PostPreview postInfo={postInfo} />);
+  expect(toJson(tree)).toMatchSnapshot();
+  global.innerWidth = testsWidth;
+});
+
 
 it('renders correctly relative cover', () => {
   postInfo.cover = "postcover";

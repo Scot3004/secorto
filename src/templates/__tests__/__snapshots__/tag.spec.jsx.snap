@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="tag-container"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Posts tagged as "Tag Name" | Sergio Orozco
+    </title>
+    <link
+      href="https://www.secorto.com/tags/Tag Name"
+      rel="canonical"
+    />
+  </HelmetWrapper>
+  <PostListing
+    postEdges={
+      Array [
+        "post_edges",
+      ]
+    }
+  />
+</div>
+`;

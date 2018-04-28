@@ -1,0 +1,675 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="post-page md-grid md-grid--no-spacing"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      The post Title | Sergio Orozco
+    </title>
+    <link
+      href="https://www.secorto.comslug"
+      rel="canonical"
+    />
+  </HelmetWrapper>
+  <SEO
+    config={
+      Object {
+        "blogPostDir": "posts",
+        "copyright": "Copyright © 2018. Sergio Orozco",
+        "disqusShortname": "scot3004",
+        "fixedFooter": false,
+        "pathPrefix": "/",
+        "postDefaultCategoryID": "Tech",
+        "shortTitle": "SeCOrTo",
+        "siteDescription": "Sitio web presentación de Sergio Orozco Torres",
+        "siteFBAppID": "291685517914169",
+        "siteGATrackingID": "UA-10920504-3",
+        "siteLogo": "/logos/logo-1024.png",
+        "siteRss": "/rss.xml",
+        "siteTitle": "Sergio Orozco",
+        "siteTitleAlt": "Sergio Orozco Torres website",
+        "siteUrl": "https://www.secorto.com",
+        "userAvatar": "/logos/logo-192.png",
+        "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+        "userLinks": Array [
+          Object {
+            "iconClassName": "fa fa-github",
+            "label": "GitHub",
+            "url": "https://github.com/Scot3004",
+          },
+          Object {
+            "iconClassName": "fa fa-facebook",
+            "label": "Facebook",
+            "url": "https://facebook.com/Scot3004",
+          },
+          Object {
+            "iconClassName": "fa fa-twitter",
+            "label": "Twitter",
+            "url": "https://twitter.com/Scot3004",
+          },
+        ],
+        "userLocation": "Barranquilla, Colombia",
+        "userName": "Sergio Orozco",
+        "userTwitter": "scot3004",
+      }
+    }
+    postNode={
+      Object {
+        "excerpt": "The Post Excerpt",
+        "fields": Object {
+          "slug": "/slug",
+        },
+        "frontmatter": Object {
+          "category_id": "Tech",
+          "cover": "/logos/logo-1024.png",
+          "date": "28/04/2018",
+          "id": "slug",
+          "tags": Array [
+            "gatsby",
+            "material",
+            "starter",
+          ],
+          "title": "The post Title",
+        },
+        "timeToRead": 2,
+      }
+    }
+    postPath="slug"
+    postSEO={true}
+  />
+  <PostCover
+    mobile={false}
+    postNode={
+      Object {
+        "excerpt": "The Post Excerpt",
+        "fields": Object {
+          "slug": "/slug",
+        },
+        "frontmatter": Object {
+          "category_id": "Tech",
+          "cover": "/logos/logo-1024.png",
+          "date": "28/04/2018",
+          "id": "slug",
+          "tags": Array [
+            "gatsby",
+            "material",
+            "starter",
+          ],
+          "title": "The post Title",
+        },
+        "timeToRead": 2,
+      }
+    }
+  />
+  <div
+    className="md-grid md-cell--9 post-page-contents mobile-fix post-overlap"
+  >
+    <Card
+      animate={true}
+      className="md-grid md-cell md-cell--12 post"
+      expanderIcon={
+        <FontIcon
+          iconClassName="material-icons"
+        >
+          keyboard_arrow_down
+        </FontIcon>
+      }
+      expanderTooltipPosition="left"
+    >
+      <CardText
+        className="post-body"
+        component="section"
+      >
+        <h1
+          className="md-display-2 post-header"
+        >
+          The post Title
+        </h1>
+        <Translate(PostInfo)
+          postNode={
+            Object {
+              "excerpt": "The Post Excerpt",
+              "fields": Object {
+                "slug": "/slug",
+              },
+              "frontmatter": Object {
+                "category_id": "Tech",
+                "cover": "/logos/logo-1024.png",
+                "date": "28/04/2018",
+                "id": "slug",
+                "tags": Array [
+                  "gatsby",
+                  "material",
+                  "starter",
+                ],
+                "title": "The post Title",
+              },
+              "timeToRead": 2,
+            }
+          }
+        />
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": undefined,
+            }
+          }
+        />
+      </CardText>
+      <div
+        className="post-meta"
+      >
+        <PostTags
+          tags={
+            Array [
+              "gatsby",
+              "material",
+              "starter",
+            ]
+          }
+        />
+        <SocialLinks
+          mobile={false}
+          postNode={
+            Object {
+              "excerpt": "The Post Excerpt",
+              "fields": Object {
+                "slug": "/slug",
+              },
+              "frontmatter": Object {
+                "category_id": "Tech",
+                "cover": "/logos/logo-1024.png",
+                "date": "28/04/2018",
+                "id": "slug",
+                "tags": Array [
+                  "gatsby",
+                  "material",
+                  "starter",
+                ],
+                "title": "The post Title",
+              },
+              "timeToRead": 2,
+            }
+          }
+          postPath="slug"
+        />
+      </div>
+    </Card>
+    <UserInfo
+      className="md-grid md-cell md-cell--12"
+      config={
+        Object {
+          "blogPostDir": "posts",
+          "copyright": "Copyright © 2018. Sergio Orozco",
+          "disqusShortname": "scot3004",
+          "fixedFooter": false,
+          "pathPrefix": "/",
+          "postDefaultCategoryID": "Tech",
+          "shortTitle": "SeCOrTo",
+          "siteDescription": "Sitio web presentación de Sergio Orozco Torres",
+          "siteFBAppID": "291685517914169",
+          "siteGATrackingID": "UA-10920504-3",
+          "siteLogo": "/logos/logo-1024.png",
+          "siteRss": "/rss.xml",
+          "siteTitle": "Sergio Orozco",
+          "siteTitleAlt": "Sergio Orozco Torres website",
+          "siteUrl": "https://www.secorto.com",
+          "userAvatar": "/logos/logo-192.png",
+          "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+          "userLinks": Array [
+            Object {
+              "iconClassName": "fa fa-github",
+              "label": "GitHub",
+              "url": "https://github.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-facebook",
+              "label": "Facebook",
+              "url": "https://facebook.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-twitter",
+              "label": "Twitter",
+              "url": "https://twitter.com/Scot3004",
+            },
+          ],
+          "userLocation": "Barranquilla, Colombia",
+          "userName": "Sergio Orozco",
+          "userTwitter": "scot3004",
+        }
+      }
+      expanded={true}
+    />
+    <Disqus
+      config={
+        Object {
+          "blogPostDir": "posts",
+          "copyright": "Copyright © 2018. Sergio Orozco",
+          "disqusShortname": "scot3004",
+          "fixedFooter": false,
+          "pathPrefix": "/",
+          "postDefaultCategoryID": "Tech",
+          "shortTitle": "SeCOrTo",
+          "siteDescription": "Sitio web presentación de Sergio Orozco Torres",
+          "siteFBAppID": "291685517914169",
+          "siteGATrackingID": "UA-10920504-3",
+          "siteLogo": "/logos/logo-1024.png",
+          "siteRss": "/rss.xml",
+          "siteTitle": "Sergio Orozco",
+          "siteTitleAlt": "Sergio Orozco Torres website",
+          "siteUrl": "https://www.secorto.com",
+          "userAvatar": "/logos/logo-192.png",
+          "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+          "userLinks": Array [
+            Object {
+              "iconClassName": "fa fa-github",
+              "label": "GitHub",
+              "url": "https://github.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-facebook",
+              "label": "Facebook",
+              "url": "https://facebook.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-twitter",
+              "label": "Twitter",
+              "url": "https://twitter.com/Scot3004",
+            },
+          ],
+          "userLocation": "Barranquilla, Colombia",
+          "userName": "Sergio Orozco",
+          "userTwitter": "scot3004",
+        }
+      }
+      expanded={true}
+      postNode={
+        Object {
+          "excerpt": "The Post Excerpt",
+          "fields": Object {
+            "slug": "/slug",
+          },
+          "frontmatter": Object {
+            "category_id": "Tech",
+            "cover": "/logos/logo-1024.png",
+            "date": "28/04/2018",
+            "id": "slug",
+            "tags": Array [
+              "gatsby",
+              "material",
+              "starter",
+            ],
+            "title": "The post Title",
+          },
+          "timeToRead": 2,
+        }
+      }
+    />
+  </div>
+  <Translate(PostSuggestions)
+    postNode={
+      Object {
+        "excerpt": "The Post Excerpt",
+        "fields": Object {
+          "slug": "/slug",
+        },
+        "frontmatter": Object {
+          "category_id": "Tech",
+          "cover": "/logos/logo-1024.png",
+          "date": "28/04/2018",
+          "id": "slug",
+          "tags": Array [
+            "gatsby",
+            "material",
+            "starter",
+          ],
+          "title": "The post Title",
+        },
+        "timeToRead": 2,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`renders correctly Mobile 1`] = `
+<div
+  className="post-page md-grid md-grid--no-spacing"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      The post Title | Sergio Orozco
+    </title>
+    <link
+      href="https://www.secorto.comslug"
+      rel="canonical"
+    />
+  </HelmetWrapper>
+  <SEO
+    config={
+      Object {
+        "blogPostDir": "posts",
+        "copyright": "Copyright © 2018. Sergio Orozco",
+        "disqusShortname": "scot3004",
+        "fixedFooter": false,
+        "pathPrefix": "/",
+        "postDefaultCategoryID": "Tech",
+        "shortTitle": "SeCOrTo",
+        "siteDescription": "Sitio web presentación de Sergio Orozco Torres",
+        "siteFBAppID": "291685517914169",
+        "siteGATrackingID": "UA-10920504-3",
+        "siteLogo": "/logos/logo-1024.png",
+        "siteRss": "/rss.xml",
+        "siteTitle": "Sergio Orozco",
+        "siteTitleAlt": "Sergio Orozco Torres website",
+        "siteUrl": "https://www.secorto.com",
+        "userAvatar": "/logos/logo-192.png",
+        "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+        "userLinks": Array [
+          Object {
+            "iconClassName": "fa fa-github",
+            "label": "GitHub",
+            "url": "https://github.com/Scot3004",
+          },
+          Object {
+            "iconClassName": "fa fa-facebook",
+            "label": "Facebook",
+            "url": "https://facebook.com/Scot3004",
+          },
+          Object {
+            "iconClassName": "fa fa-twitter",
+            "label": "Twitter",
+            "url": "https://twitter.com/Scot3004",
+          },
+        ],
+        "userLocation": "Barranquilla, Colombia",
+        "userName": "Sergio Orozco",
+        "userTwitter": "scot3004",
+      }
+    }
+    postNode={
+      Object {
+        "excerpt": "The Post Excerpt",
+        "fields": Object {
+          "slug": "/slug",
+        },
+        "frontmatter": Object {
+          "category_id": "Tech",
+          "cover": "/logos/logo-1024.png",
+          "date": "28/04/2018",
+          "id": "slug",
+          "tags": Array [
+            "gatsby",
+            "material",
+            "starter",
+          ],
+          "title": "The post Title",
+        },
+        "timeToRead": 2,
+      }
+    }
+    postPath="slug"
+    postSEO={true}
+  />
+  <PostCover
+    mobile={true}
+    postNode={
+      Object {
+        "excerpt": "The Post Excerpt",
+        "fields": Object {
+          "slug": "/slug",
+        },
+        "frontmatter": Object {
+          "category_id": "Tech",
+          "cover": "/logos/logo-1024.png",
+          "date": "28/04/2018",
+          "id": "slug",
+          "tags": Array [
+            "gatsby",
+            "material",
+            "starter",
+          ],
+          "title": "The post Title",
+        },
+        "timeToRead": 2,
+      }
+    }
+  />
+  <div
+    className="md-grid md-cell--9 post-page-contents mobile-fix post-overlap-mobile"
+  >
+    <Card
+      animate={true}
+      className="md-grid md-cell md-cell--12 post"
+      expanderIcon={
+        <FontIcon
+          iconClassName="material-icons"
+        >
+          keyboard_arrow_down
+        </FontIcon>
+      }
+      expanderTooltipPosition="left"
+    >
+      <CardText
+        className="post-body"
+        component="section"
+      >
+        <h1
+          className="md-display-2 post-header"
+        >
+          The post Title
+        </h1>
+        <Translate(PostInfo)
+          postNode={
+            Object {
+              "excerpt": "The Post Excerpt",
+              "fields": Object {
+                "slug": "/slug",
+              },
+              "frontmatter": Object {
+                "category_id": "Tech",
+                "cover": "/logos/logo-1024.png",
+                "date": "28/04/2018",
+                "id": "slug",
+                "tags": Array [
+                  "gatsby",
+                  "material",
+                  "starter",
+                ],
+                "title": "The post Title",
+              },
+              "timeToRead": 2,
+            }
+          }
+        />
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": undefined,
+            }
+          }
+        />
+      </CardText>
+      <div
+        className="post-meta"
+      >
+        <PostTags
+          tags={
+            Array [
+              "gatsby",
+              "material",
+              "starter",
+            ]
+          }
+        />
+        <SocialLinks
+          mobile={true}
+          postNode={
+            Object {
+              "excerpt": "The Post Excerpt",
+              "fields": Object {
+                "slug": "/slug",
+              },
+              "frontmatter": Object {
+                "category_id": "Tech",
+                "cover": "/logos/logo-1024.png",
+                "date": "28/04/2018",
+                "id": "slug",
+                "tags": Array [
+                  "gatsby",
+                  "material",
+                  "starter",
+                ],
+                "title": "The post Title",
+              },
+              "timeToRead": 2,
+            }
+          }
+          postPath="slug"
+        />
+      </div>
+    </Card>
+    <UserInfo
+      className="md-grid md-cell md-cell--12"
+      config={
+        Object {
+          "blogPostDir": "posts",
+          "copyright": "Copyright © 2018. Sergio Orozco",
+          "disqusShortname": "scot3004",
+          "fixedFooter": false,
+          "pathPrefix": "/",
+          "postDefaultCategoryID": "Tech",
+          "shortTitle": "SeCOrTo",
+          "siteDescription": "Sitio web presentación de Sergio Orozco Torres",
+          "siteFBAppID": "291685517914169",
+          "siteGATrackingID": "UA-10920504-3",
+          "siteLogo": "/logos/logo-1024.png",
+          "siteRss": "/rss.xml",
+          "siteTitle": "Sergio Orozco",
+          "siteTitleAlt": "Sergio Orozco Torres website",
+          "siteUrl": "https://www.secorto.com",
+          "userAvatar": "/logos/logo-192.png",
+          "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+          "userLinks": Array [
+            Object {
+              "iconClassName": "fa fa-github",
+              "label": "GitHub",
+              "url": "https://github.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-facebook",
+              "label": "Facebook",
+              "url": "https://facebook.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-twitter",
+              "label": "Twitter",
+              "url": "https://twitter.com/Scot3004",
+            },
+          ],
+          "userLocation": "Barranquilla, Colombia",
+          "userName": "Sergio Orozco",
+          "userTwitter": "scot3004",
+        }
+      }
+      expanded={false}
+    />
+    <Disqus
+      config={
+        Object {
+          "blogPostDir": "posts",
+          "copyright": "Copyright © 2018. Sergio Orozco",
+          "disqusShortname": "scot3004",
+          "fixedFooter": false,
+          "pathPrefix": "/",
+          "postDefaultCategoryID": "Tech",
+          "shortTitle": "SeCOrTo",
+          "siteDescription": "Sitio web presentación de Sergio Orozco Torres",
+          "siteFBAppID": "291685517914169",
+          "siteGATrackingID": "UA-10920504-3",
+          "siteLogo": "/logos/logo-1024.png",
+          "siteRss": "/rss.xml",
+          "siteTitle": "Sergio Orozco",
+          "siteTitleAlt": "Sergio Orozco Torres website",
+          "siteUrl": "https://www.secorto.com",
+          "userAvatar": "/logos/logo-192.png",
+          "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+          "userLinks": Array [
+            Object {
+              "iconClassName": "fa fa-github",
+              "label": "GitHub",
+              "url": "https://github.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-facebook",
+              "label": "Facebook",
+              "url": "https://facebook.com/Scot3004",
+            },
+            Object {
+              "iconClassName": "fa fa-twitter",
+              "label": "Twitter",
+              "url": "https://twitter.com/Scot3004",
+            },
+          ],
+          "userLocation": "Barranquilla, Colombia",
+          "userName": "Sergio Orozco",
+          "userTwitter": "scot3004",
+        }
+      }
+      expanded={false}
+      postNode={
+        Object {
+          "excerpt": "The Post Excerpt",
+          "fields": Object {
+            "slug": "/slug",
+          },
+          "frontmatter": Object {
+            "category_id": "Tech",
+            "cover": "/logos/logo-1024.png",
+            "date": "28/04/2018",
+            "id": "slug",
+            "tags": Array [
+              "gatsby",
+              "material",
+              "starter",
+            ],
+            "title": "The post Title",
+          },
+          "timeToRead": 2,
+        }
+      }
+    />
+  </div>
+  <Translate(PostSuggestions)
+    postNode={
+      Object {
+        "excerpt": "The Post Excerpt",
+        "fields": Object {
+          "slug": "/slug",
+        },
+        "frontmatter": Object {
+          "category_id": "Tech",
+          "cover": "/logos/logo-1024.png",
+          "date": "28/04/2018",
+          "id": "slug",
+          "tags": Array [
+            "gatsby",
+            "material",
+            "starter",
+          ],
+          "title": "The post Title",
+        },
+        "timeToRead": 2,
+      }
+    }
+  />
+</div>
+`;

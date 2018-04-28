@@ -12,7 +12,7 @@ module.exports = {
     "js"
   ],
   "moduleNameMapper": {
-    "\\.(scss|svg|png|jpg)$": "<rootDir>/src/styleMock.js"
+    "\\.(scss|css|svg|png|jpg)$": "<rootDir>/src/styleMock.js"
   },
   "collectCoverage": process.env.CI === "true",
   "collectCoverageFrom": [

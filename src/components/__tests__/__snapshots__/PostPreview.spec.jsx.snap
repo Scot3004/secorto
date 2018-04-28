@@ -110,7 +110,7 @@ exports[`renders correctly 1`] = `
 </Card>
 `;
 
-exports[`renders correctly 2`] = `
+exports[`renders correctly Mobile 1`] = `
 <Card
   animate={true}
   className="md-grid md-cell md-cell--12"
@@ -141,116 +141,6 @@ exports[`renders correctly 2`] = `
       style={
         Object {
           "backgroundImage": "url(http://localhost/logos/logo-1024.png)",
-          "height": "225px",
-        }
-      }
-    >
-      <MediaOverlay
-        component="div"
-      >
-        <CardTitle
-          title="Introducing Gatsby Material Starter"
-        >
-          <withInk(withTooltip(Button))
-            className="md-cell--right"
-            inkTransitionEnterTimeout={450}
-            inkTransitionLeaveTimeout={300}
-            inkTransitionOverlap={150}
-            raised={true}
-            secondary={true}
-          >
-            read
-          </withInk(withTooltip(Button))>
-        </CardTitle>
-      </MediaOverlay>
-    </Media>
-  </GatsbyLink>
-  <CardTitle
-    avatar={
-      <Avatar
-        icon={
-          <FontIcon
-            iconClassName="fa fa-calendar"
-          />
-        }
-        suffixes={
-          Array [
-            "red",
-            "pink",
-            "purple",
-            "deep-purple",
-            "indigo",
-            "blue",
-            "light-blue",
-            "cyan",
-            "teal",
-            "green",
-            "light-green",
-            "lime",
-            "yellow",
-            "amber",
-            "orange",
-            "deep-orange",
-            "brown",
-            "grey",
-            "blue-grey",
-          ]
-        }
-      />
-    }
-    expander={false}
-    subtitle="readTime"
-    title="published on"
-  />
-  <CardText
-    component="section"
-    expandable={false}
-  >
-    This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…
-    <PostTags
-      tags={
-        Array [
-          "gatsby",
-          "material",
-          "starter",
-        ]
-      }
-    />
-  </CardText>
-</Card>
-`;
-
-exports[`renders correctly relative cover 1`] = `
-<Card
-  animate={true}
-  className="md-grid md-cell md-cell--12"
-  expanderIcon={
-    <FontIcon
-      iconClassName="material-icons"
-    >
-      keyboard_arrow_down
-    </FontIcon>
-  }
-  expanderTooltipPosition="left"
-  key="/introducing-gatsby-material-starter"
-  raise={true}
->
-  <GatsbyLink
-    style={
-      Object {
-        "textDecoration": "none",
-      }
-    }
-    to="/introducing-gatsby-material-starter"
-  >
-    <Media
-      aspectRatio="16-9"
-      className="post-preview-cover"
-      component="section"
-      forceAspect={true}
-      style={
-        Object {
-          "backgroundImage": "url(postcover)",
           "height": "162px",
         }
       }
@@ -315,6 +205,116 @@ exports[`renders correctly relative cover 1`] = `
   <CardText
     component="section"
     expandable={true}
+  >
+    This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…
+    <PostTags
+      tags={
+        Array [
+          "gatsby",
+          "material",
+          "starter",
+        ]
+      }
+    />
+  </CardText>
+</Card>
+`;
+
+exports[`renders correctly relative cover 1`] = `
+<Card
+  animate={true}
+  className="md-grid md-cell md-cell--12"
+  expanderIcon={
+    <FontIcon
+      iconClassName="material-icons"
+    >
+      keyboard_arrow_down
+    </FontIcon>
+  }
+  expanderTooltipPosition="left"
+  key="/introducing-gatsby-material-starter"
+  raise={true}
+>
+  <GatsbyLink
+    style={
+      Object {
+        "textDecoration": "none",
+      }
+    }
+    to="/introducing-gatsby-material-starter"
+  >
+    <Media
+      aspectRatio="16-9"
+      className="post-preview-cover"
+      component="section"
+      forceAspect={true}
+      style={
+        Object {
+          "backgroundImage": "url(postcover)",
+          "height": "225px",
+        }
+      }
+    >
+      <MediaOverlay
+        component="div"
+      >
+        <CardTitle
+          title="Introducing Gatsby Material Starter"
+        >
+          <withInk(withTooltip(Button))
+            className="md-cell--right"
+            inkTransitionEnterTimeout={450}
+            inkTransitionLeaveTimeout={300}
+            inkTransitionOverlap={150}
+            raised={true}
+            secondary={true}
+          >
+            read
+          </withInk(withTooltip(Button))>
+        </CardTitle>
+      </MediaOverlay>
+    </Media>
+  </GatsbyLink>
+  <CardTitle
+    avatar={
+      <Avatar
+        icon={
+          <FontIcon
+            iconClassName="fa fa-calendar"
+          />
+        }
+        suffixes={
+          Array [
+            "red",
+            "pink",
+            "purple",
+            "deep-purple",
+            "indigo",
+            "blue",
+            "light-blue",
+            "cyan",
+            "teal",
+            "green",
+            "light-green",
+            "lime",
+            "yellow",
+            "amber",
+            "orange",
+            "deep-orange",
+            "brown",
+            "grey",
+            "blue-grey",
+          ]
+        }
+      />
+    }
+    expander={false}
+    subtitle="readTime"
+    title="published on"
+  />
+  <CardText
+    component="section"
+    expandable={false}
   >
     This is a original post of ruben, but reflect all technologies applied on this website Not so long ago, this project got ported to v…
     <PostTags
