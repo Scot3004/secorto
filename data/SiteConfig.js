@@ -18,7 +18,7 @@ module.exports = {
   userLocation: "Barranquilla, Colombia", // User location to display in the author segment.
   userAvatar: "/logos/logo-192.png", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "Especialista en seguridad informática, activista de software libre, ciclista, toco piano como hobbie, no llego a ser otaku, pero casi", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
