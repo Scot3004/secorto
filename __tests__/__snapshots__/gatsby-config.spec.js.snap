@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gastby config should be equals to snapshot 1`] = `
+Object {
+  "pathPrefix": "/",
+  "plugins": Array [
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sass",
+    Object {
+      "options": Object {
+        "name": "posts",
+        "path": "/home/scot3004/Proyectos/secorto/content/posts",
+      },
+      "resolve": "gatsby-source-filesystem",
+    },
+    Object {
+      "options": Object {
+        "plugins": Array [
+          Object {
+            "options": Object {
+              "maxWidth": 1200,
+            },
+            "resolve": "gatsby-remark-images",
+          },
+          Object {
+            "resolve": "gatsby-remark-responsive-iframe",
+          },
+          "gatsby-remark-prismjs",
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-autolink-headers",
+        ],
+      },
+      "resolve": "gatsby-transformer-remark",
+    },
+    Object {
+      "options": Object {
+        "trackingId": "UA-10920504-3",
+      },
+      "resolve": "gatsby-plugin-google-analytics",
+    },
+    Object {
+      "options": Object {
+        "color": "#00838f",
+      },
+      "resolve": "gatsby-plugin-nprogress",
+    },
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-catch-links",
+    "gatsby-plugin-twitter",
+    Object {
+      "options": Object {
+        "output": "/sitemap.xml",
+        "query": "
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+
+            allSitePage(
+              filter: {
+                path: {
+                  regex: \\"/^(?!\\\\/(dev-404-page|404|offline-plugin-app-shell-fallback|tags|categories)).*$/\\"
+                }
+              }
+            ) {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }",
+      },
+      "resolve": "gatsby-plugin-sitemap",
+    },
+    Object {
+      "options": Object {
+        "background_color": "#212121",
+        "description": "Sitio web presentación de Sergio Orozco Torres",
+        "display": "minimal-ui",
+        "icons": Array [
+          Object {
+            "sizes": "192x192",
+            "src": "/logos/logo-192.png",
+            "type": "image/png",
+          },
+          Object {
+            "sizes": "512x512",
+            "src": "/logos/logo-512.png",
+            "type": "image/png",
+          },
+        ],
+        "name": "Sergio Orozco",
+        "short_name": "SeCOrTo",
+        "start_url": "/",
+        "theme_color": "#00838f",
+      },
+      "resolve": "gatsby-plugin-manifest",
+    },
+    "gatsby-plugin-offline",
+    Object {
+      "options": Object {
+        "feeds": Array [
+          Object {
+            "output": "/rss.xml",
+            "query": "
+            {
+              allMarkdownRemark(
+                limit: 1000,
+                sort: { order: DESC, fields: [frontmatter___date] },
+              ) {
+                edges {
+                  node {
+                    excerpt
+                    html
+                    timeToRead
+                    fields { slug }
+                    frontmatter {
+                      title
+                      cover
+                      date
+                      category
+                      tags
+                    }
+                  }
+                }
+              }
+            }
+          ",
+            "serialize": [Function],
+          },
+        ],
+        "query": "
+        {
+          site {
+            siteMetadata {
+              rssMetadata {
+                site_url
+                feed_url
+                title
+                description
+                image_url
+                author
+                copyright
+              }
+            }
+          }
+        }
+      ",
+        "setup": [Function],
+      },
+      "resolve": "gatsby-plugin-feed",
+    },
+  ],
+  "siteMetadata": Object {
+    "rssMetadata": Object {
+      "author": "Sergio Orozco",
+      "copyright": "Copyright © 2018. Sergio Orozco",
+      "description": "Sitio web presentación de Sergio Orozco Torres",
+      "feed_url": "https://www.secorto.com/rss.xml",
+      "image_url": "https://www.secorto.com/logos/logo-512.png",
+      "site_url": "https://www.secorto.com",
+      "title": "Sergio Orozco",
+    },
+    "siteUrl": "https://www.secorto.com",
+  },
+}
+`;
+
+exports[`Setup for gatsby-plugin-feed Snapshot of Setup for gatsby-plugin-feed 1`] = `
+Object {
+  "allMarkdownRemark": Object {
+    "edges": Array [
+      Object {
+        "node": Object {
+          "fields": Object {
+            "slug": "slug",
+          },
+          "frontmatter": Object {
+            "date": "date",
+            "excerpt": "excerpt",
+            "tags": Array [
+              "prueba",
+            ],
+            "title": "title",
+          },
+          "html": "html",
+        },
+      },
+    ],
+  },
+  "generator": "GatsbyJS Material Starter",
+  "siteUrl": "siteUrl/",
+}
+`;
