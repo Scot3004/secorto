@@ -52,7 +52,7 @@ exports[`renders correctly 1`] = `
             "siteTitleAlt": "Sergio Orozco Torres website",
             "siteUrl": "https://www.secorto.com",
             "userAvatar": "/logos/logo-192.png",
-            "userDescription": "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.",
+            "userDescription": "Especialista en seguridad informática, activista de software libre, ciclista, toco piano como hobbie, no llego a ser otaku, pero casi",
             "userLinks": Array [
               Object {
                 "iconClassName": "fa fa-github",
