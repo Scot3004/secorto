@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gastby config should be equals to snapshot 1`] = `
+Object {
+  "createPages": [Function],
+  "modifyWebpackConfig": [Function],
+  "onCreateNode": [Function],
+  "setFieldsOnGraphQLNodeType": [Function],
+}
+`;
