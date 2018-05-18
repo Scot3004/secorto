@@ -1,13 +1,13 @@
 import gatsbyConfig from '../gatsby-config';
 
 
-describe('Gastby config', () => {
+describe.skip('Gastby config', () => {
   it('should be equals to snapshot', () => {
     expect(gatsbyConfig).toMatchSnapshot();
   });
 });
 
-describe("Setup for gatsby-plugin-feed", () => {
+describe.skip("Setup for gatsby-plugin-feed", () => {
   const ref = {
     query: {
       allMarkdownRemark: {
