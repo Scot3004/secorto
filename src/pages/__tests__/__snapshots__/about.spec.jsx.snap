@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="about-container"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      About | Sergio Orozco
+    </title>
+    <link
+      href="https://www.secorto.com/about/"
+      rel="canonical"
+    />
+  </HelmetWrapper>
+  <Translate(About) />
+</div>
+`;

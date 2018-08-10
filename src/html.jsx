@@ -1,16 +1,13 @@
-/* eslint import/no-unresolved:"off" */
-/* eslint import/extensions:"off" */
-/* eslint global-require:"off" */
 import React from "react";
 import favicon from "./favicon.png";
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {
   try {
-    /* eslint import/no-webpack-loader-syntax: off */
+    // eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved, global-require
     inlinedStyles = require("!raw-loader!../public/styles.css");
   } catch (e) {
-    /* eslint no-console: "off" */
+    // eslint-disable-next-line no-console
     console.log(e);
   }
 }

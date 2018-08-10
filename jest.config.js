@@ -12,7 +12,7 @@ module.exports = {
     "js"
   ],
   "moduleNameMapper": {
-    "\\.(scss|svg|png|jpg)$": "<rootDir>/src/styleMock.js"
+    "\\.(scss|css|svg|png|jpg)$": "<rootDir>/src/styleMock.js"
   },
   "collectCoverage": process.env.CI === "true",
   "collectCoverageFrom": [
@@ -26,6 +26,7 @@ module.exports = {
   "coverageReporters": process.env.CI === "true" ?  ['lcov'] : ['lcov', 'text', 'html'],
   "setupTestFrameworkScriptFile": "./src/setupTests.js",
   globals: {
-    __PATH_PREFIX__: "http://localhost"
+    __PATH_PREFIX__: "http://localhost",
+    __dirname: ""
   }
 }

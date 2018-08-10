@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
-import SEO from "../components/SEO/SEO";
+import PostListing from "../components/PostListing";
+import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
@@ -13,7 +13,7 @@ class Index extends React.Component {
           <title>{config.siteTitle}</title>
           <link rel="canonical" href={`${config.siteUrl}`} />
         </Helmet>
-        <SEO postEdges={postEdges} />
+        <SEO postEdges={postEdges} config={config} />
         <PostListing postEdges={postEdges} />
       </div>
     );

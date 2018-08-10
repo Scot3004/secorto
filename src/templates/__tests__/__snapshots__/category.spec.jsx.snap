@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="category-container"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Posts in category "Category Name" | Sergio Orozco
+    </title>
+    <link
+      href="https://www.secorto.com/categories/Category Name"
+      rel="canonical"
+    />
+  </HelmetWrapper>
+  <PostListing
+    postEdges={
+      Array [
+        "post_edges",
+      ]
+    }
+  />
+</div>
+`;
