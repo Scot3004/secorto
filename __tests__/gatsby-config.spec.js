@@ -2,7 +2,7 @@ import gatsbyConfig from '../gatsby-config';
 
 
 describe.skip('Gastby config', () => {
-  it('should be equals to snapshot', () => {
+  it.skip('should be equals to snapshot', () => {
     expect(gatsbyConfig).toMatchSnapshot();
   });
 });
